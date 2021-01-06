@@ -6,6 +6,9 @@ const statsError = require('./errorHandlers')
 const validate = require('./middleware')
 const invalidDrafterror = require('./errorHandlers')
 
+const cors = require('cors')
+app.use(cors())
+
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 
