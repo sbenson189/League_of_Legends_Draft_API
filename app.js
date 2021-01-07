@@ -37,4 +37,7 @@ app.post('/stats', async (req, res, next)  => {
   }
 })
 
+const port = process.env.PORT || 8080
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+
 module.exports = app
