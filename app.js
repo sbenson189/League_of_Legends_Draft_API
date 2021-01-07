@@ -6,6 +6,7 @@ const statsError = require('./errorHandlers')
 const validate = require('./middleware')
 const invalidDrafterror = require('./errorHandlers')
 
+// Cors Config
 const cors = require('cors')
 app.use(cors())
 
