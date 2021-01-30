@@ -103,3 +103,4 @@ dist
 .tern-port
 node_modules
 node_modules
+npm-debug.log
