@@ -1,4 +1,4 @@
-let DB_URI = `postgresql://`
+let DB_URI = `postgresql://draft`
 
 if (process.env.NODE_ENV === "test") {
   DB_URI = `${DB_URI}/draft`
