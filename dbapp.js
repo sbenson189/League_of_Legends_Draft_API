@@ -1,7 +1,7 @@
 /** Express app for auth-api. */
 
-import express from 'express';
-export const app = express();
+const express = require('express')
+const app = express();
 
 app.use(express.json());
 
@@ -27,4 +27,4 @@ app.use(function (err, req, res, next) {
   });
 });
 
-export default app
+module.exports = app
