@@ -4,16 +4,26 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-
     "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.6",
+    "pg": "^8.5.1"
   },
   "engines": {
     "node": "14.x"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbenson189/League_of_Legends_Draft_API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sbenson189/League_of_Legends_Draft_API/issues"
+  },
+  "homepage": "https://github.com/sbenson189/League_of_Legends_Draft_API#readme"
 }
