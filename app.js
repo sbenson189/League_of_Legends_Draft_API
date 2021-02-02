@@ -19,7 +19,7 @@ app.get('/stats', async (req, res, next) => {
       return res.json(stats)
   } catch (err) {
     // return statsError.statsUnavailable()
-    return statsError.invalidDraftDbError()
+    return err
   }
 })
 
