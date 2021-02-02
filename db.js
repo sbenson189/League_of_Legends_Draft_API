@@ -5,7 +5,7 @@ let DB_URI // creates DB_URI variable and conditionally setting it to two differ
 if (process.env.NODE_ENV === 'test') { // two db's, one for testing and one for application
     DB_URI = 'postgresql://drafts_db'
 } else {
-    DB_URI = 'postgresql:///drafts_db'
+    DB_URI =  process.env.DATABASE_URL || 'postgresql:///drafts_db'
 }
 
 let db = new Client({
