@@ -18,7 +18,6 @@ app.get('/', async (req, res, next) => {
       const stats = await dbStats.populateAPIStats(req, res, next)
       return res.json(stats)
   } catch (err) {
-    // return statsError.statsUnavailable()
     return err
   }
 })
