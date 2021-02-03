@@ -13,6 +13,16 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 
+app.get('/', async (req, res, next) => {
+  try {
+      const stats = await dbStats.populateAPIStats(req, res, next)
+      return res.json(stats)
+  } catch (err) {
+    // return statsError.statsUnavailable()
+    return err
+  }
+})
+
 app.get('/stats', async (req, res, next) => {
   try {
       const stats = await dbStats.populateAPIStats(req, res, next)
