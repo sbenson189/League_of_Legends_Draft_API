@@ -70,8 +70,8 @@ const data = {
         "banned": "50.0",
         "image": "http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Ashe_0.jpg"
       },
-      "Aurelion Sol": {
-        "name": "Aurelion Sol",
+      "AurelionSol": {
+        "name": "AurelionSol",
         "picked": "0.0",
         "banned": "0.0",
         "image": "http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Aurelion Sol_0.jpg"
@@ -148,8 +148,8 @@ const data = {
         "banned": "0.0",
         "image": "http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Diana_0.jpg"
       },
-      "Dr. Mundo": {
-        "name": "Dr. Mundo",
+      "DrMundo": {
+        "name": "DrMundo",
         "picked": "0.0",
         "banned": "0.0",
         "image": "http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Dr. Mundo_0.jpg"
@@ -772,8 +772,8 @@ const data = {
         "banned": "0.0",
         "image": "http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Tryndamere_0.jpg"
       },
-      "Twisted Fate": {
-        "name": "Twisted Fate",
+      "TwistedFate": {
+        "name": "TwistedFate",
         "picked": "0.0",
         "banned": "0.0",
         "image": "http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Twisted Fate_0.jpg"
@@ -849,12 +849,6 @@ const data = {
         "picked": "0.0",
         "banned": "0.0",
         "image": "http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Warwick_0.jpg"
-      },
-      "Wukong": {
-        "name": "Wukong",
-        "picked": "0.0",
-        "banned": "0.0",
-        "image": "http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Wukong_0.jpg"
       },
       "Xayah": {
         "name": "Xayah",
