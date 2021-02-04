@@ -15,7 +15,8 @@ app.use(express.urlencoded({extended:true}))
 
 app.get('/', async (req, res, next) => {
   try {
-      const stats = await dbStats.populateAPIStats(req, res, next)
+      // const stats = await dbStats.populateAPIStats(req, res, next)
+      const stats = 'stats'
       return res.json(stats)
   } catch (err) {
     return err
