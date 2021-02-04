@@ -32,19 +32,19 @@ app.get('/stats', async (req, res, next) => {
   }
 })
 
-// app.post('/stats', async (req, res, next)  => {
-//   const results = Object.values(req.body)
-//   const validDraft = await validate.validateDraftInputs(results)
+app.post('/stats', async (req, res, next)  => {
+  const results = Object.values(req.body)
+  const validDraft = await validate.validateDraftInputs(results)
 
-//   try {
-//     if (!validDraft) {
-//       return invalidDrafterror.invalidDraftDbError()
-//     } else {
-//       const addDraft = await draft.newDraft(req, res, next)
-//       return res.status(201).json(addDraft)}
-//     } catch (err) {
-//       return next(err)
-//   }
-// })
+  try {
+    if (!validDraft) {
+      return invalidDrafterror.invalidDraftDbError()
+    } else {
+      const addDraft = await draft.newDraft(req, res, next)
+      return res.status(201).json(addDraft)}
+    } catch (err) {
+      return next(err)
+  }
+})
 
 module.exports = app
