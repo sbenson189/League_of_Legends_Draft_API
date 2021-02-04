@@ -18,7 +18,8 @@ const getChampionNames = async () => {
 }
 
 const populateAPIStats = async () => {
-    const allChampions = await getChampionNames()
+    // const allChampions = await getChampionNames()
+    const allChampions = namesArray
     const draftResponse = await championData.getChampionDbData()
   
     const pickedChampions = draftResponse.map(data => [data.blue_pick1, data.blue_pick2, data.blue_pick3, data.blue_pick4, data.blue_pick5, data.red_pick1, data.red_pick2, data.red_pick3, data.red_pick4, data.red_pick5]).flat()
