@@ -11,7 +11,7 @@ const calculateRatio = (array, item, total) => total/array.map(element => elemen
 const rate = (array, item) => countOccurrences(array, item) === 0 ? 0 : array.length / countOccurrences(array, item)
 
 const getChampionNames = async () => {
-    const response = await axios.get(`${baseURL}${championUrl}`)
+    // const response = await axios.get(`${baseURL}${championUrl}`)
     // const champNames = Object.keys(response.data.data)
     const champNames = namesArray
     return champNames
