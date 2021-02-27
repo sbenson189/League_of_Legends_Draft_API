@@ -74,7 +74,7 @@ const data = {
         "name": "AurelionSol",
         "picked": "0.0",
         "banned": "0.0",
-        "image": "http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Aurelion Sol_0.jpg"
+        "image": "http://ddragon.leagueoflegends.com/cdn/img/champion/loading/AurelionSol_0.jpg"
       },
       "Azir": {
         "name": "Azir",
@@ -152,7 +152,7 @@ const data = {
         "name": "DrMundo",
         "picked": "0.0",
         "banned": "0.0",
-        "image": "http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Dr. Mundo_0.jpg"
+        "image": "http://ddragon.leagueoflegends.com/cdn/img/champion/loading/DrMundo_0.jpg"
       },
       "Draven": {
         "name": "Draven",
@@ -776,7 +776,7 @@ const data = {
         "name": "TwistedFate",
         "picked": "0.0",
         "banned": "0.0",
-        "image": "http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Twisted Fate_0.jpg"
+        "image": "http://ddragon.leagueoflegends.com/cdn/img/champion/loading/TwistedFate_0.jpg"
       },
       "Twitch": {
         "name": "Twitch",
